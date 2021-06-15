@@ -3,6 +3,7 @@
 namespace Luxinten\ReferalKlarnaPlagin\Plagin;
 
 use Magento\Framework\Exception\LocalizedException as KlarnaApiException;
+use Magento\Checkout\Model\Session as CheckoutSession;
 
 class Builder
 {
